@@ -1,15 +1,10 @@
-.componentTemplate {
-  min-width: 800px;
-  background-color: bisque;
-}
-
 .flex {
   display: flex;
 }
 
 .row {
   flex-direction: row;
-  gap: 10px;
+  gap: 80px;
 }
 
 .center {
@@ -17,4 +12,15 @@
   justify-content: center;
 }
 
+.col {
+  flex-direction: column;
+}
 
+.wrap {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.over-y {
+  overflow-y: scroll;
+}

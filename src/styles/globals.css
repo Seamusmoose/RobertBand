@@ -13,15 +13,36 @@ body {
   overflow-x: hidden;
 } */
 
+.componentTemplate {
+  min-width: 800px;
+  padding: 40px;
+  background-color: rgba(236, 236, 236, 255);
+}
+
 .container {
   height: 100vh;
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space: nowrap;
-  width: auto;
+  background-color: rgb(58, 62, 82);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p {
+  color: rgb(26, 41, 57);
+}
+
+.textContainer {
+  background-color: aliceblue;
+  width: 800px;
+  height: 400px;
+  overflow: scroll;
+}
+
+.t {
+  width: 800px;
+  border: 1px solid red;
 }
