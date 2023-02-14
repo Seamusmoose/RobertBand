@@ -11,21 +11,23 @@ import img19 from "../../public/img19.jpeg";
 export default function History() {
   return (
     <div className="componentTemplate flex center col">
-      <p>History</p>
+      <p className="pad-40">History</p>
 
       <div className="flex wrap over-y">
-        <p className="t">
+        <p className="pad-40">
           Sunt proident incididunt labore excepteur ut non ex quis incididunt
           officia proident pariatur eu. Et tempor sit adipisicing aute velit
           cupidatat adipisicing officia sit. Est et Lorem excepteur dolore sunt.
           Tempor deserunt tempor nostrud Lorem officia culpa.
         </p>
-        <Image src={img1} height={400} width={400} alt="img" />
-        <Image src={img2} height={400} width={400} alt="img" />
-        <Image src={img3} height={400} width={400} alt="img" />
-        <Image src={img15} height={400} width={400} alt="img" />
-        <Image src={img16} height={400} width={400} alt="img" />
-        <Image src={img19} height={400} width={400} alt="img" />
+        <div className="pad-40">
+          <Image src={img1} height={400} width={400} alt="img" />
+          <Image src={img2} height={400} width={400} alt="img" />
+          <Image src={img3} height={400} width={400} alt="img" />
+          <Image src={img15} height={400} width={400} alt="img" />
+          <Image src={img16} height={400} width={400} alt="img" />
+          <Image src={img19} height={400} width={400} alt="img" />
+        </div>
       </div>
     </div>
   );
